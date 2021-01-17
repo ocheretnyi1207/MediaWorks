@@ -1,0 +1,40 @@
+.nav-list {
+    display: flex;
+
+    &__item {
+        &:first-child {
+            margin-right: 749px;
+        }
+
+        &:nth-child(3n+2) {
+            margin-right: 135px;
+            padding-top: 4px;
+        }
+
+        &:last-child {
+            position: relative;
+            padding-top: 3px;
+            
+            &::after {
+                position: absolute;
+                top: 4px;
+                left: -35px;
+                content: "";
+                width: 24px;
+                height: 24px;
+                background: url("../../img/account.svg") no-repeat;
+            }
+        }
+
+        &-img {
+            padding-left: 5px;
+        }
+    }
+
+
+    &__link {
+        color: #ffffff;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
