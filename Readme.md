@@ -5,3 +5,9 @@ Stack:
 - SCSS
 - JS
 - Gulp
+
+Run project on local server
+- Run a project with the command npm start
+
+Build the project
+- You can build a project without starting a local server using the `npm run build` command, the finished build will be located in the build folder
