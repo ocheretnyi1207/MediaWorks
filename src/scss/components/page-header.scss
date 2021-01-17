@@ -1,34 +1,33 @@
 .page-header {
-    background: linear-gradient(90deg, #2D1686 0%, #4E33B5 100%);
-    padding-top: 33px;
-    padding-bottom: 178px;
+  padding-top: 33px;
+  padding-bottom: 178px;
+  background: linear-gradient(90deg, #2d1686 0%, #4e33b5 100%);
 
+  &__nav {
+    margin-bottom: 130px;
+  }
 
-    &__nav {
-        margin-bottom: 130px;
-    }
+  &__title {
+    width: 527px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #ffffff;
+  }
 
-    &__title {
-        width: 527px;
-        color:  #ffffff;
-        font-weight: 600;
-        font-size: 50px;
-        line-height: 60px;
-        margin-bottom: 30px;
-    }
+  &__text {
+    width: 515px;
+    margin-bottom: 58px;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+    letter-spacing: 0.3px;
+  }
 
-    &__text {
-        font-size: 24px;
-        line-height: 32px;
-        color: #ffffff;
-        width: 515px;
-        margin-bottom: 58px;
-        letter-spacing: 0.3px;
-    }
-
-    &__img {
-        position: absolute;
-        top: 122px;
-        left: 489px;
-    }
+  &__img {
+    position: absolute;
+    top: 122px;
+    left: 489px;
+  }
 }

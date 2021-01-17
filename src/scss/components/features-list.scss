@@ -1,64 +1,62 @@
 .features-list {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
-    &__item {
-        position: relative;
-        width: 570px;
-        background-color: #f6f5f9;
-        border-radius: 6px;
-        padding-top: 43px;
-        padding-bottom: 50px;
-        padding-left: 40px;
-        margin-right: 30px;
-        margin-bottom: 30px;
+  &__item {
+    position: relative;
+    width: 570px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding-top: 43px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    background-color: #f6f5f9;
+    border-radius: 6px;
 
-        &:nth-child(2n) {
-            margin-right: 0;
-        }
-
-        &:first-child p {
-            width: 265px;
-        }
-
-        &:nth-child(2n) p {
-            width: 244px;
-        }
-
-        &:nth-child(4n+3) h3 {
-            width: 209px;
-        }
-
-        &:nth-child(4n+3) p {
-            width: 292px;
-        }
-
-
-        &-title {
-            font-family: "Segoe UI", sans-serif;
-            font-weight: 600;
-            font-size: 22px;
-            line-height: 30px;
-            margin-bottom: 22px;
-        }
-
-        &-description {
-            font-size: 16px;
-            line-height: 23px;
-            font-weight: 400;
-            color: #474351;
-
-            &:first-child {
-                width: 284px;
-            }
-        }
-
-        &-img {
-            position: absolute;
-            top: 24px;
-            left: 368px;
-        }
+    &:nth-child(2n) {
+      margin-right: 0;
     }
+
+    &:first-child p {
+      width: 265px;
+    }
+
+    &:nth-child(2n) p {
+      width: 244px;
+    }
+
+    &:nth-child(4n+3) h3 {
+      width: 209px;
+    }
+
+    &:nth-child(4n+3) p {
+      width: 292px;
+    }
+
+    &-title {
+      margin-bottom: 22px;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 30px;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    &-description {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 23px;
+      color: #474351;
+
+      &:first-child {
+        width: 284px;
+      }
+    }
+
+    &-img {
+      position: absolute;
+      top: 24px;
+      left: 368px;
+    }
+  }
 }

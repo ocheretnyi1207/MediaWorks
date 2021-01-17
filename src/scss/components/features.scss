@@ -1,13 +1,13 @@
 .features {
-    padding-top: 130px;
-    margin-bottom: 96px;
+  margin-bottom: 96px;
+  padding-top: 130px;
 
-    &__title {
-        font-size: 40px;
-        line-height: 53px;
-        font-weight: 600;
-        color: #2E2D35;
-        margin-bottom: 50px;
-        max-width: 850px;
-    }
+  &__title {
+    max-width: 850px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 53px;
+    color: #2e2d35;
+  }
 }
