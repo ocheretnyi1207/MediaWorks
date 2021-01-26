@@ -25,23 +25,21 @@
                         <a href="#" class="nav-list__link nav-list__link--signin">Войти</a>
                     </li>
                 </ul>
-                <form class="authorization-form" action="#">
+                <form class="auth-form" action="#">
                     <fieldset>
                         <legend>Авторизация</legend>
-                        <div class="authorization-form__wrapper">
-                            <label for="email">E-mail</label>
-                            <input type="email" name="email" id="email" placeholder="Введите E-mail">
-                            <label for="password">Пароль</label>
-                            <input type="text" name="password" id="password" placeholder="Введите пароль">
-                            <input type="submit" value="Войти">
-                            <button class="authorization-form__closebtn">Закрыть</button>
-                        </div>
+                            <label class="auth-form__label" for="email">E-mail</label>
+                            <input class="auth-form__control auth-form__control--email" type="email" name="email" id="email" placeholder="Введите E-mail">
+                            <label class="auth-form__label" for="password">Пароль</label>
+                            <input class="auth-form__control auth-form__control--text" type="text" name="password" id="password" placeholder="Введите пароль">
+                            <input class="auth-form__control auth-form__control--submit" type="submit" value="Войти">
+                            <button class="auth-form__closebtn">Закрыть</button>
                     </fieldset>
                 </form>
             </nav>
             <h1 class="page-header__title">Подбор авто в лизинг по выгодной цене</h1>
             <p class="page-header__text">IT платформа по быстрому поиску автомобиля от официальных дилеров РФ</p>
-            <a href="#" class="reg-link">Регистрация</a>
+            <a href="#" class="link-registration">Регистрация</a>
             <img class="page-header__img" src="img/avto.svg" width="689" height="442" alt="Avto image">
         </div>
     </header>
@@ -83,11 +81,11 @@
             </div>
         </section>
         <section class="registration">
-            <div class="registration__wrapper">
+            <div class="container container--registration">
                 <h2 class="registration__title">Регистрируйся и получай актуальные запросы на автомобили от
                     заинтерисованных
                     клиентов</h2>
-                <a href="#" class="reg-link">Регистрация</a>
+                <a href="#" class="link-registration">Регистрация</a>
                 <img class="registration__img" src="img/avto_2.png" width="670" height="323" alt="Avto image">
             </div>
 

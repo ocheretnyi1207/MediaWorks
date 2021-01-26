@@ -2,4 +2,11 @@
   position: relative;
   width: 1170px;
   margin: 0 auto;
+
+  &--registration {
+    padding: 70px 0;
+    padding-left: 70px;
+    background: linear-gradient(90deg, #2d1686 0%, #4e33b5 100%);
+    border-radius: 10px;
+  }
 }

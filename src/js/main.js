@@ -1,6 +1,6 @@
-const form = document.querySelector('.authorization-form');
+const form = document.querySelector('.auth-form');
 const signIn = document.querySelector('.nav-list__link--signin');
-const btnCloseForm = document.querySelector('.authorization-form__closebtn');
+const btnCloseForm = document.querySelector('.auth-form__closebtn');
 
 signIn.addEventListener('click', () => {
     form.style.display = 'block';
