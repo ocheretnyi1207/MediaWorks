@@ -10,3 +10,12 @@ btnCloseForm.addEventListener('click', (evt) => {
     evt.preventDefault();
     form.style.display = 'none';
 })
+
+const onEscKeyDown = (evt) => {
+    if (evt.keyCode === 27) {
+        form.style.display = 'none';
+    }
+    document.removeEventListener('keydown', onEscKeyDown);
+}
+
+document.addEventListener('keydown', onEscKeyDown);
